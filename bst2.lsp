@@ -39,6 +39,9 @@
       (progn
         (in-order-traversal (node-left bst))
         (print (node-value bst))
-        (in-order-traversal (node-right bst)))))
+        (in-order-traversal (node-right bst))
+        )
+    )
+)
 
 (in-order-traversal tree)
