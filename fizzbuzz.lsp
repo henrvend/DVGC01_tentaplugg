@@ -1,0 +1,12 @@
+(defun fizzbuzz(tal)
+    (cond
+        ((if (and (= 0 (mod tal 3))(= 0 (mod tal 5)))
+            (print "Fizzbuzz")))
+        ((if (= 0 (mod tal 3))
+            (print "Fizz")))
+        ((if (= 0 (mod tal 5))
+            ;(print "Buzz")
+            'buzz))
+    )
+)
+(fizzbuzz 5)
