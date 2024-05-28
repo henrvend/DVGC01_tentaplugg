@@ -40,3 +40,6 @@
 
 (init #'initial a)
 
+(defun initial(l)
+    (list (first l) (second l)))
+
