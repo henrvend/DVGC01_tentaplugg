@@ -18,3 +18,5 @@ test([H|T], V) :- test(T, V).
 
 
 
+len([], 0).
+len([_|T], L) :- len(T, TL), L is 1 + TL.

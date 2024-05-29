@@ -10,5 +10,5 @@
 (setf a '((aretha franklin) (tina turner) (amy winehouse)))
 
 (separate a #'first)
-
+(separate a #'second)
 (list (separate a #'first) (separate a #'second))
